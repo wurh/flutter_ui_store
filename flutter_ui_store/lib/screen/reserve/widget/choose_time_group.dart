@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_store/constant.dart';
+import 'package:flutter_ui_store/constants/medical/constant.dart';
 import 'package:flutter_ui_store/model/choose_model.dart';
 import 'package:flutter_ui_store/screen/reserve/widget/choose_time.dart';
 

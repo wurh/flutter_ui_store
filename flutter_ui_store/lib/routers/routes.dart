@@ -6,6 +6,7 @@ class Routes{
   static String root='/';
   static String medicalDemo = '/medicaldemo';
   static String storyuiDemo = '/storyuidemo';
+  static String coffeeDemo = '/coffeeDemo';
   static void configureRoutes(Router router){
     router.notFoundHandler= new Handler(
       handlerFunc: (BuildContext context,Map<String,List<String>> params){
@@ -14,5 +15,6 @@ class Routes{
     );
     router.define(medicalDemo,handler:medicalHandler);
     router.define(storyuiDemo,handler:storyuiHandler);
+     router.define(coffeeDemo,handler:coffeeHandler);
   }
 }

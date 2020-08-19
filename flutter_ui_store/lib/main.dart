@@ -1,6 +1,6 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_store/constant.dart';
+import 'package:flutter_ui_store/constants/medical/constant.dart';
 import 'package:flutter_ui_store/pages/boot_page.dart';
 import 'package:flutter_ui_store/pages/splash_page.dart';
 import 'package:flutter_ui_store/routers/application.dart';

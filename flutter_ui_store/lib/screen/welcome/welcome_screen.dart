@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_store/constant.dart';
+import 'package:flutter_ui_store/constants/medical/constant.dart';
 import 'package:flutter_ui_store/screen/reserve/reserve_screen.dart';
 import 'package:flutter_ui_store/widget/header_logo.dart';
 import 'package:flutter_ui_store/widget/menu_card.dart';
