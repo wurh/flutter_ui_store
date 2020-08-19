@@ -87,6 +87,7 @@ class _BootPageState extends State<BootPage> {
                 //点击事件
                 onTap: () async {
                   print("click");
+                  Application.router.navigateTo(context, '/storyuidemo');
                 },
                 child: Container(
                   //设置 child 居中
