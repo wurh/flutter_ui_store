@@ -1,0 +1,1 @@
+flutter build apk -v --release --target-platform android-arm  && open build/app/outputs/apk/release
